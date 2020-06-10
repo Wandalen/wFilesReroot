@@ -16,7 +16,7 @@
   {
     "url" : "https://github.com/Wandalen/wFilesReroot/issues"
   },
-  "dependencies" : { "wTools" : "" },
-  "devDependencies" : { "wTesting" : "", "eslint" : "7.1.0", "wfilesreroot" : "file:." },
+  "dependencies" : { "wTools" : "alpha" },
+  "devDependencies" : { "eslint" : "7.1.0", "wfilesreroot" : "file:.", "wTesting" : "alpha" },
   "keywords" : [ "wTools" ]
 }
