@@ -6,8 +6,8 @@ consistency:
     hash: 064d6d686829c9a9ad557a0d51a797d2
     size: 1685
   ../.im.will.yml: &ref_1
-    hash: e599d01011e4a5e8a3a03d085fb8c8fa
-    size: 4681
+    hash: 71401b4625dc8c9fe136376b4193cc90
+    size: 4685
 module:
   wFilesReroot.out:
     about:
@@ -138,7 +138,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - ../proto/wtools/Tools.s
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wfilesreroot
       exported.dir.proto.export:
         criterion:
@@ -155,9 +155,9 @@ module:
           - ../proto
           - ../proto/Integration.test.ss
           - ../proto/node_modules
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wfilesreroot
           - ../proto/wtools
-          - ../proto/wtools/Tools.s
           - ../proto/wtools/abase
           - ../proto/wtools/amid
           - ../proto/wtools/atop
@@ -890,7 +890,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - proto/wtools/Tools.s
+          - proto/node_modules/Tools
           - proto/node_modules/wfilesreroot
     submodule:
       wTools:
@@ -1438,5 +1438,5 @@ module:
         hash: 064d6d686829c9a9ad557a0d51a797d2
         size: 1685
       ../.im.will.yml:
-        hash: e599d01011e4a5e8a3a03d085fb8c8fa
-        size: 4681
+        hash: 71401b4625dc8c9fe136376b4193cc90
+        size: 4685
