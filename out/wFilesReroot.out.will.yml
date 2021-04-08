@@ -1470,6 +1470,4 @@ module:
       ../.im.will.yml:
         hash: 71401b4625dc8c9fe136376b4193cc90
         size: 4685
-      wFilesReroot.out.will.yml:
-        hash: 634bd4a8627fd2310c325a459047383e
-        size: 37321
+      wFilesReroot.out.will.yml: *ref_0
